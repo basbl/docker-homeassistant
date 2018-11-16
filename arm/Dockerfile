@@ -5,4 +5,5 @@ RUN apk -U update && \
     apk -U upgrade \
     && rm -rf /var/cache/apk/*
 
-RUN pip3 install --upgrade pip3 && pip3 install tensorflow==1.11.0
+RUN pip install --upgrade pip
+RUN pip3 install tensorflow==1.11.0
