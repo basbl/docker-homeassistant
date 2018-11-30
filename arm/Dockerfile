@@ -1,4 +1,4 @@
-FROM homeassistant/raspberrypi3-homeassistant:0.83.0
+FROM homeassistant/raspberrypi3-homeassistant:0.83.1
 MAINTAINER Bas Bloembergen <basbloembergen@gmail.com>
 
 RUN apk -U update && \
